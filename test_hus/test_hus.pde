@@ -10,9 +10,16 @@ void draw(){
   y = y + 2;
     noStroke();
   background(3, 198, 252);
+  
+  if(y > 700){
+     background(36, 58, 224);
+  } else{
+     background(3, 198, 252);
+  }
+    
    fill(174, 82, 227);
   rect(175,290,300,300);
-   fill(22,48,100);
+   fill(168, 50, 82);
   triangle(175,290,474,290,300,100);
    fill(0, 0, 0);
   rect(250,490,70,100);
