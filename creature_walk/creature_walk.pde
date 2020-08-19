@@ -1,10 +1,10 @@
-//kroppen
-int xbody = 100;
-int ybody = 100;
-
 //hovedet 
 int xhead = 100;
 int yhead = 50;
+
+//kroppen
+int xbody = 100;
+int ybody = 100;
 
 //højre øje
 int xrighteye = 90;
@@ -46,7 +46,11 @@ void draw() {
    circle(xlefteye, ylefteye, 8);
 
   //arm
+  arm();
+}
+
+void arm() {
   xarm = xarm + 1;
   yarm = yarm + 1;
-   ellipse(xarm, yarm, 20, 70);
+  ellipse(xarm, yarm, 20, 70);
 }
