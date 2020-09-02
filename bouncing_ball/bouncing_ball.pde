@@ -1,5 +1,5 @@
-float xMove = 500;
-float yMove = 500;
+float xRectSize = 500;
+float yRectSize = 500;
 
 void setup(){
  size(600,600);
@@ -11,10 +11,10 @@ void draw(){
   clear();
  noFill();
  stroke(255,255,255);
- rect(300,300,xMove,yMove); 
+ rect(300,300,xRectSize,yRectSize); 
  
- xMove = xMove *0.998;
- yMove = yMove *0.998;
+ xRectSize = xRectSize *0.998;
+ yRectSize = yRectSize *0.998;
  
  noStroke();
  fill(255,255,255);
