@@ -30,7 +30,7 @@ void keyPressed() {
   clear();
   text("TRYK på 'k' FOR AT KASTE / OG 's' FOR AT SLETTE", 50, 50);
   
-  text("1'er", 45, 680);
+  text("1'er", 45, 680); //Denne tekst indikerer hvilken søjle der viser antal 1'ere, antal 2'ere osv. 
   text("2'er", 100, 680);
   text("3'er", 155, 680);
   text("4'er", 210, 680);
@@ -119,7 +119,7 @@ void fjernSidsteKast() {
 }
 
 void tegnFordeling(){
-  if(antalEtere != 0){
+  if(antalEtere != 0){ 
    rect(30,(650 - (antalEtere * 10)),50,(10 + (antalEtere * 10)));
     text(antalEtere + " stk.", 40,(625 - (antalEtere * 10)));
   }
