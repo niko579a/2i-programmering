@@ -109,7 +109,7 @@ void draw(){
   bil4Lygte.tegne();
   bil4Lygte.move();
   
-//Disse if statements neden under bestemmer hvornår bilerne stoppes med at tegne, og hvornår de skal "komme tilbage". 
+//Disse if statements neden under gør at når bilen kører ud af skærmen så bliver de sendt til den anden side af skærmen.
   //Vi trækker 100 fra fordi det er længden af bilerne. 
   if(bil1.x < 0 - 100){
     bil1.x = width;
