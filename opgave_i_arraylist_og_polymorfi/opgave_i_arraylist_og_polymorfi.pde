@@ -1,9 +1,6 @@
 //Du kan trykke på f, h eller s. 
 
 ArrayList <Dyr> dyreListe = new ArrayList <Dyr>();
-Insekt flue;
-Slange python;
-Hund labrador;
 
 void setup(){
   size(600,600);
