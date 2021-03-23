@@ -13,7 +13,7 @@ class Dyr{ //1. Her ses min class, der hedder Dyr
     displayBody();
   }
   
-  void displayBody(){
+  void displayBody(){ //Denne metode laves så metoden i klassen Hund kan override den, for ellers virker det ikke. 
   }
 }
 
@@ -25,7 +25,7 @@ class Hund extends Dyr{ //6. Her bruger jeg nedarvning ved at extended en ny cla
   void walk(){ //9. Her er min metode fordi den er under min class og derfor er det ik en funktion, men en metode.
   }
   
-  void displayBody(){ //12. Laver override
+  void displayBody(){ //12. Laver override her. 
     rect(x,y,20,20);
   }
 }
